@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-// Env provides access to all services used in tests, like the database, our server, and an HTTP client for performing test(^^)
+// Env provides access to all services used in tests, like the database, our server, and an HTTP client for performing
 // HTTP requests against the test server.
 type Env struct {
 	T          *testing.T
